@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA6127081BC9CDC9002BF533 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6127071BC9CDC9002BF533 /* Dog.swift */; settings = {ASSET_TAGS = (); }; };
 		AAB5AA571BC48E9700349710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5AA561BC48E9700349710 /* AppDelegate.swift */; };
 		AAB5AA591BC48E9700349710 /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5AA581BC48E9700349710 /* DogViewController.swift */; };
 		AAB5AA5E1BC48E9700349710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB5AA5C1BC48E9700349710 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		AAB5AA6E1BC48E9700349710 /* DoggieTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5AA6D1BC48E9700349710 /* DoggieTrackerTests.swift */; };
 		AAB5AA791BC48E9700349710 /* DoggieTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5AA781BC48E9700349710 /* DoggieTrackerUITests.swift */; };
 		AADA873E1BC7582D00C48FCD /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA873D1BC7582D00C48FCD /* RatingControl.swift */; settings = {ASSET_TAGS = (); }; };
-		AADA87401BC7715700C48FCD /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA873F1BC7715700C48FCD /* Dog.swift */; settings = {ASSET_TAGS = (); }; };
 		AADA87421BC8634400C48FCD /* DogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA87411BC8634400C48FCD /* DogTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		AADA87451BC86AB300C48FCD /* DogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA87431BC86AB300C48FCD /* DogTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		AADA87461BC86AB300C48FCD /* DogTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADA87441BC86AB300C48FCD /* DogTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
@@ -39,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA6127071BC9CDC9002BF533 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		AAB5AA531BC48E9700349710 /* DoggieTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoggieTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB5AA561BC48E9700349710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAB5AA581BC48E9700349710 /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
+		AAB5AA581BC48E9700349710 /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DogViewController.swift; path = ../DogViewController.swift; sourceTree = "<group>"; };
 		AAB5AA5D1BC48E9700349710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAB5AA5F1BC48E9700349710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAB5AA621BC48E9700349710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,10 +53,9 @@
 		AAB5AA741BC48E9700349710 /* DoggieTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoggieTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB5AA781BC48E9700349710 /* DoggieTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggieTrackerUITests.swift; sourceTree = "<group>"; };
 		AAB5AA7A1BC48E9700349710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AADA873D1BC7582D00C48FCD /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
-		AADA873F1BC7715700C48FCD /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
-		AADA87411BC8634400C48FCD /* DogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogTableViewCell.swift; sourceTree = "<group>"; };
-		AADA87431BC86AB300C48FCD /* DogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogTableViewController.swift; sourceTree = "<group>"; };
+		AADA873D1BC7582D00C48FCD /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = ../RatingControl.swift; sourceTree = "<group>"; };
+		AADA87411BC8634400C48FCD /* DogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DogTableViewCell.swift; path = ../../DogTableViewCell.swift; sourceTree = "<group>"; };
+		AADA87431BC86AB300C48FCD /* DogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DogTableViewController.swift; path = ../DogTableViewController.swift; sourceTree = "<group>"; };
 		AADA87441BC86AB300C48FCD /* DogTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DogTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,11 +84,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AAB5AA4A1BC48E9700349710 = {
+		AA6127061BC9CC60002BF533 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA6127071BC9CDC9002BF533 /* Dog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA61270A1BC9CE7F002BF533 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5AA581BC48E9700349710 /* DogViewController.swift */,
+				AADA87431BC86AB300C48FCD /* DogTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AA61270B1BC9CED6002BF533 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				AADA873D1BC7582D00C48FCD /* RatingControl.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		AA61270C1BC9CF85002BF533 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				AADA87411BC8634400C48FCD /* DogTableViewCell.swift */,
-				AADA873F1BC7715700C48FCD /* Dog.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA61270D1BC9CFD1002BF533 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		AAB5AA4A1BC48E9700349710 = {
+			isa = PBXGroup;
+			children = (
 				AAB5AA551BC48E9700349710 /* DoggieTracker */,
 				AAB5AA6C1BC48E9700349710 /* DoggieTrackerTests */,
 				AAB5AA771BC48E9700349710 /* DoggieTrackerUITests */,
@@ -109,12 +147,14 @@
 		AAB5AA551BC48E9700349710 /* DoggieTracker */ = {
 			isa = PBXGroup;
 			children = (
+				AA61270D1BC9CFD1002BF533 /* Helpers */,
+				AA61270C1BC9CF85002BF533 /* Views */,
+				AA61270B1BC9CED6002BF533 /* Controls */,
+				AA61270A1BC9CE7F002BF533 /* Controllers */,
+				AA6127061BC9CC60002BF533 /* Models */,
 				AAB5AA561BC48E9700349710 /* AppDelegate.swift */,
-				AAB5AA581BC48E9700349710 /* DogViewController.swift */,
 				AAB5AA5C1BC48E9700349710 /* Main.storyboard */,
-				AADA87431BC86AB300C48FCD /* DogTableViewController.swift */,
 				AADA87441BC86AB300C48FCD /* DogTableViewController.xib */,
-				AADA873D1BC7582D00C48FCD /* RatingControl.swift */,
 				AAB5AA5F1BC48E9700349710 /* Assets.xcassets */,
 				AAB5AA611BC48E9700349710 /* LaunchScreen.storyboard */,
 				AAB5AA641BC48E9700349710 /* Info.plist */,
@@ -273,9 +313,9 @@
 			files = (
 				AADA873E1BC7582D00C48FCD /* RatingControl.swift in Sources */,
 				AADA87421BC8634400C48FCD /* DogTableViewCell.swift in Sources */,
+				AA6127081BC9CDC9002BF533 /* Dog.swift in Sources */,
 				AAB5AA571BC48E9700349710 /* AppDelegate.swift in Sources */,
 				AADA87451BC86AB300C48FCD /* DogTableViewController.swift in Sources */,
-				AADA87401BC7715700C48FCD /* Dog.swift in Sources */,
 				AAB5AA591BC48E9700349710 /* DogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
