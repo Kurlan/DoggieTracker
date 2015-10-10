@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoggieTrackerTests/DoggieTrackerTests.swift"
+            timestampString = "466057334.484811"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "DoggieTrackerTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoggieTrackerTests.DoggieTrackerTests.__deallocating_deinit"
+                  moduleName = "DoggieTrackerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/steve/xcode/DoggieTracker/DoggieTracker/DoggieTrackerTests/DoggieTrackerTests.swift"
+                  timestampString = "466057346.63681"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoggieTrackerTests.DoggieTrackerTests.init (DoggieTrackerTests.DoggieTrackerTests.Type)(invocation : Swift.Optional&lt;ObjectiveC.NSInvocation&gt;) -&gt; DoggieTrackerTests.DoggieTrackerTests"
+                  moduleName = "DoggieTrackerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/steve/xcode/DoggieTracker/DoggieTracker/DoggieTrackerTests/DoggieTrackerTests.swift"
+                  timestampString = "466057346.638199"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoggieTrackerTests.DoggieTrackerTests.init (DoggieTrackerTests.DoggieTrackerTests.Type)(selector : ObjectiveC.Selector) -&gt; DoggieTrackerTests.DoggieTrackerTests"
+                  moduleName = "DoggieTrackerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/steve/xcode/DoggieTracker/DoggieTracker/DoggieTrackerTests/DoggieTrackerTests.swift"
+                  timestampString = "466057346.638555"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoggieTrackerTests.DoggieTrackerTests.init (DoggieTrackerTests.DoggieTrackerTests.Type)() -&gt; DoggieTrackerTests.DoggieTrackerTests"
+                  moduleName = "DoggieTrackerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/steve/xcode/DoggieTracker/DoggieTracker/DoggieTrackerTests/DoggieTrackerTests.swift"
+                  timestampString = "466057346.63885"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoggieTracker/DogTableViewController.swift"
+            timestampString = "466203754.346542"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "unwindToDogList(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

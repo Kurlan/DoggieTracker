@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		AAB5AA571BC48E9700349710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5AA561BC48E9700349710 /* AppDelegate.swift */; };
-		AAB5AA591BC48E9700349710 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5AA581BC48E9700349710 /* FirstViewController.swift */; };
-		AAB5AA5B1BC48E9700349710 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5AA5A1BC48E9700349710 /* SecondViewController.swift */; };
+		AAB5AA591BC48E9700349710 /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5AA581BC48E9700349710 /* DogViewController.swift */; };
 		AAB5AA5E1BC48E9700349710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB5AA5C1BC48E9700349710 /* Main.storyboard */; };
 		AAB5AA601BC48E9700349710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB5AA5F1BC48E9700349710 /* Assets.xcassets */; };
 		AAB5AA631BC48E9700349710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB5AA611BC48E9700349710 /* LaunchScreen.storyboard */; };
 		AAB5AA6E1BC48E9700349710 /* DoggieTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5AA6D1BC48E9700349710 /* DoggieTrackerTests.swift */; };
 		AAB5AA791BC48E9700349710 /* DoggieTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5AA781BC48E9700349710 /* DoggieTrackerUITests.swift */; };
+		AADA873E1BC7582D00C48FCD /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA873D1BC7582D00C48FCD /* RatingControl.swift */; settings = {ASSET_TAGS = (); }; };
+		AADA87401BC7715700C48FCD /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA873F1BC7715700C48FCD /* Dog.swift */; settings = {ASSET_TAGS = (); }; };
+		AADA87421BC8634400C48FCD /* DogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA87411BC8634400C48FCD /* DogTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		AADA87451BC86AB300C48FCD /* DogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA87431BC86AB300C48FCD /* DogTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AADA87461BC86AB300C48FCD /* DogTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADA87441BC86AB300C48FCD /* DogTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,7 @@
 /* Begin PBXFileReference section */
 		AAB5AA531BC48E9700349710 /* DoggieTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoggieTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB5AA561BC48E9700349710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAB5AA581BC48E9700349710 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		AAB5AA5A1BC48E9700349710 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AAB5AA581BC48E9700349710 /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
 		AAB5AA5D1BC48E9700349710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAB5AA5F1BC48E9700349710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAB5AA621BC48E9700349710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		AAB5AA741BC48E9700349710 /* DoggieTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoggieTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB5AA781BC48E9700349710 /* DoggieTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggieTrackerUITests.swift; sourceTree = "<group>"; };
 		AAB5AA7A1BC48E9700349710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADA873D1BC7582D00C48FCD /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		AADA873F1BC7715700C48FCD /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		AADA87411BC8634400C48FCD /* DogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogTableViewCell.swift; sourceTree = "<group>"; };
+		AADA87431BC86AB300C48FCD /* DogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogTableViewController.swift; sourceTree = "<group>"; };
+		AADA87441BC86AB300C48FCD /* DogTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DogTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		AAB5AA4A1BC48E9700349710 = {
 			isa = PBXGroup;
 			children = (
+				AADA87411BC8634400C48FCD /* DogTableViewCell.swift */,
+				AADA873F1BC7715700C48FCD /* Dog.swift */,
 				AAB5AA551BC48E9700349710 /* DoggieTracker */,
 				AAB5AA6C1BC48E9700349710 /* DoggieTrackerTests */,
 				AAB5AA771BC48E9700349710 /* DoggieTrackerUITests */,
@@ -100,9 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				AAB5AA561BC48E9700349710 /* AppDelegate.swift */,
-				AAB5AA581BC48E9700349710 /* FirstViewController.swift */,
-				AAB5AA5A1BC48E9700349710 /* SecondViewController.swift */,
+				AAB5AA581BC48E9700349710 /* DogViewController.swift */,
 				AAB5AA5C1BC48E9700349710 /* Main.storyboard */,
+				AADA87431BC86AB300C48FCD /* DogTableViewController.swift */,
+				AADA87441BC86AB300C48FCD /* DogTableViewController.xib */,
+				AADA873D1BC7582D00C48FCD /* RatingControl.swift */,
 				AAB5AA5F1BC48E9700349710 /* Assets.xcassets */,
 				AAB5AA611BC48E9700349710 /* LaunchScreen.storyboard */,
 				AAB5AA641BC48E9700349710 /* Info.plist */,
@@ -231,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADA87461BC86AB300C48FCD /* DogTableViewController.xib in Resources */,
 				AAB5AA631BC48E9700349710 /* LaunchScreen.storyboard in Resources */,
 				AAB5AA601BC48E9700349710 /* Assets.xcassets in Resources */,
 				AAB5AA5E1BC48E9700349710 /* Main.storyboard in Resources */,
@@ -258,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB5AA5B1BC48E9700349710 /* SecondViewController.swift in Sources */,
+				AADA873E1BC7582D00C48FCD /* RatingControl.swift in Sources */,
+				AADA87421BC8634400C48FCD /* DogTableViewCell.swift in Sources */,
 				AAB5AA571BC48E9700349710 /* AppDelegate.swift in Sources */,
-				AAB5AA591BC48E9700349710 /* FirstViewController.swift in Sources */,
+				AADA87451BC86AB300C48FCD /* DogTableViewController.swift in Sources */,
+				AADA87401BC7715700C48FCD /* Dog.swift in Sources */,
+				AAB5AA591BC48E9700349710 /* DogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +503,7 @@
 				AAB5AA7F1BC48E9700349710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAB5AA801BC48E9700349710 /* Build configuration list for PBXNativeTarget "DoggieTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +512,7 @@
 				AAB5AA821BC48E9700349710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAB5AA831BC48E9700349710 /* Build configuration list for PBXNativeTarget "DoggieTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +521,7 @@
 				AAB5AA851BC48E9700349710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
