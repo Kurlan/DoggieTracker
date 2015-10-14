@@ -82,10 +82,10 @@ class DogViewController: UIViewController, UITextFieldDelegate, UIImagePickerCon
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if saveButton === sender {
             let name = nameTextField.text ?? ""
-            let photo = photoImageView.image
+//            let photo = photoImageView.image
             let rating = ratingControl.rating
             
-            dog = Dog(name: name, photo: photo, rating: rating)
+            dog = Dog(name: name, photoURL: "", rating: rating)
         }
     }
     

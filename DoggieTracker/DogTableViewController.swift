@@ -7,34 +7,20 @@
 //
 
 import UIKit
+import Alamofire
 
 class DogTableViewController: UITableViewController {
     
     // MARK: Properties
     var dogs = [Dog]()
+    let dogHelper = DogHelper()
+    let user = User()
+    var imageCache = [String:UIImage]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         navigationItem.leftBarButtonItem = editButtonItem()
-        if let savedDogs = loadDogs(){
-            dogs += savedDogs
-        } else {
-            loadSampleDogs()
-        }
-    }
-    
-    func loadSampleDogs() {
-        let photo1 = UIImage(named: "bogey1")!
-        let dog1 = Dog(name: "Photo 1", photo: photo1, rating: 4)!
-        
-        let photo2 = UIImage(named: "bogey2")!
-        let dog2 = Dog(name: "Photo 2", photo: photo2, rating: 5)!
-        
-        let photo3 = UIImage(named: "bogey3")!
-        let dog3 = Dog(name: "Photo 3", photo: photo3, rating: 3)!
-        
-        dogs += [dog1, dog2, dog3]
+        loadDogs()
     }
 
     override func didReceiveMemoryWarning() {
@@ -79,8 +65,6 @@ class DogTableViewController: UITableViewController {
                 dogs.append(dog)
                 tableView.insertRowsAtIndexPaths([newIndexPath], withRowAnimation: .Bottom)
             }
-            
-            saveDogs()
         }
     }
 
@@ -95,7 +79,6 @@ class DogTableViewController: UITableViewController {
         if editingStyle == .Delete {
             // Delete the row from the data source
             dogs.removeAtIndex(indexPath.row)
-            saveDogs()
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
@@ -135,16 +118,33 @@ class DogTableViewController: UITableViewController {
     }
     
     // MARK: NSCoding
-    
-    func saveDogs() {
-        let isSuccessfulSave = NSKeyedArchiver.archiveRootObject(dogs, toFile: Dog.ArchiveURL.path!)
-        if !isSuccessfulSave {
-            print("Failed to save dogs")
+
+    func loadDogs() {
+        let url = Config.baseURL + "/party/byUser/" + user.userId
+        
+        Alamofire.request(.GET, url).validate().responseJSON {response in
+            
+            if let JSON = response.result.value as? [AnyObject] {
+                let newDogs = self.dogHelper.parseDog(JSON)
+                self.dogs += newDogs
+                for newDog in newDogs {
+                    if let photoURL = newDog.photoURL {
+                        Alamofire.request(.GET, photoURL).response() {
+                            (_, _, data, _) in
+
+                            newDog.photo  = UIImage(data: data!)
+                        }
+                        
+                        dispatch_async(dispatch_get_main_queue(), {
+                            self.tableView.reloadData()
+                            return
+                        })
+                    }
+                }
+                print("JSON: \(JSON)")
+            }
         }
-    }
-    
-    func loadDogs() -> [Dog]? {
-        return NSKeyedUnarchiver.unarchiveObjectWithFile(Dog.ArchiveURL.path!) as? [Dog]
+
     }
     
 }
